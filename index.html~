@@ -205,10 +205,10 @@
                 <div id="webForum" class="tab-pane fade">
                     <h4>Web Forum</h4>
                     <p>
-                        Side project, May 2015
+                        Side Project, May 2015
                     </p>
                     <div class="well">
-                        Developed a web forum as part of a project to teach a classmate web development utilizing Python and Django.
+                        Todo: add content.
                     </div>
                     <p>
                         Technologies used: <em>Python, Django, Bootstrap</em>
