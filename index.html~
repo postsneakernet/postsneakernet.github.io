@@ -8,7 +8,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<!--    <link rel="icon" href="../../favicon.ico">-->
 
     <title>Elliot Hutchinson</title>
 
@@ -60,9 +60,9 @@
                 <span class="caret"></span> Connect
               </a>
               <ul class="dropdown-menu">
-                <li><a href="https://github.com/postsneakernet">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/elliothutchinson">LinkedIn</a></li>
-                <li><a href="Elliot_Hutchinson_resume.pdf">Resume</a></li>
+                <li><a href="https://github.com/postsneakernet" target="_top">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/elliothutchinson" target="_top">LinkedIn</a></li>
+                <li><a href="hutchinson_resume.pdf">Resume</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="mailto:elliot@elliothutchinson.com">Contact</a></li>
               </ul>
@@ -78,7 +78,7 @@
       <div class="jumbotron">
         <a name="home" class="section">&nbsp;</a>
         <h2>Elliot Hutchinson, Software Engineer</h2>
-        <p>Hello! I am a recent graduate and software engineer residing in the Washington, DC metropoliton area. I have a broad technical skill set with a strong focus on Java/JEE and Python and full stack development.</p>
+        <p>Hello! I am a recent graduate and software engineer residing in the Washington, DC metropoliton area. I have a broad technical skill set with a strong focus on Java/JEE, Python, and full stack development. I'm passionate about technology and I'm always looking for a new challenge.</p>
 
       </div>
 
@@ -88,6 +88,7 @@
           <br><br><br>
         </div>
         <div class="panel panel-default">
+<!--          <a name="skills" class="section">&nbsp;</a>-->
           <div class="panel-heading"><h4><span class="glyphicon glyphicon-ok-sign"></span> Skills</h4></div>
           <div class="panel-body">
 
@@ -106,6 +107,14 @@
           </p>
               <hr>
               </div>
+              
+                  <div class="col-md-6">
+          <h4>Other Languages</h4>
+          <p>
+            C, C++, Assembly, MATLAB, LabVIEW
+          </p>
+            <hr>
+              </div>
 
               <div class="col-md-6">
           <h4>Data</h4>
@@ -116,9 +125,9 @@
               </div>
 
               <div class="col-md-6">
-          <h4>Front-end</h4>
+          <h4>Web</h4>
           <p>
-            HTML, CSS, JavaScript, jQuery, Bootstrap
+            HTML, CSS, JavaScript, jQuery, Bootstrap, Web Services
           </p>
               <hr>
               </div>
@@ -158,6 +167,7 @@
         </div>
           
         <div class="panel panel-default" data-center-top="opacity:0" data-200-top="opacity:1">
+<!--            <a name="projects" class="section">&nbsp;</a>-->
           <div class="panel-heading"><h4><span class="glyphicon glyphicon-briefcase"></span> Projects</h4></div>
           <div class="panel-body">
               
@@ -171,6 +181,7 @@
                         <li><a data-toggle="pill" href="#learningManagementSystem">Learning Management System</a></li>
                         <li><a data-toggle="pill" href="#bicycleComputer">Bicycle Computer</a></li>
                         <li><a data-toggle="pill" href="#mriImageAnalysis">MRI Image Analysis</a></li>
+                        <li><a data-toggle="pill" href="#otherProjects">Other Projects</a></li>
                     </ul>
                   </div>
         
@@ -182,10 +193,10 @@
                         eIntern, October 2015
                     </p>
                     <div class="well">
-                        Developed an employee management portal that supported different authorization roles including employees, managers, and administrators and enabled authenticated users access to their respective portals which included functionality for employees to view and update their profiles, for managers to manage and add employees in their department, as well as for administrators to grant and revoke manager and admin status.
+                        Developed an employee management portal that supported different authorization roles including employees, managers, and administrators and enabled authenticated users access to their respective portals which included functionality for employees to view and update their profiles, for managers to manage and add employees in their department, as well as for administrators to grant and revoke manager and admin status to existing employees.
                     </div>
                     <p>
-                        Technologies used: <em>Java, Hibernate, Oracle Database, Tiles, JSP, Spring MVC, Bootstrap, JQuery, WebLogic</em>
+                        Technologies used: <em>Java, Hibernate, Oracle Database, Tiles, Spring MVC, Bootstrap, jQuery, WebLogic</em>
                     </p>
                 </div>
 
@@ -195,10 +206,10 @@
                         eIntern, September 2015
                     </p>
                     <div class="well">
-                        Developed an online parts catalog with functionality for inventory managers to add, update, and remove parts from their catalog and enabled dealers to search and view parts by name and keyword.
+                        Developed an online parts catalog with functionality for inventory managers to add, update, and remove parts from their catalog and enabled authenticated dealers to search and view parts by name and keyword.
                     </div>
                     <p>
-                        Technologies used: <em>Java, Hibernate, Oracle Database, JSP, Struts, WebLogic</em>
+                        Technologies used: <em>Java, Hibernate, Oracle Database, Struts, WebLogic</em>
                     </p>
                 </div>
                 
@@ -208,8 +219,7 @@
                         Side project, May 2015
                     </p>
                     <div class="well">
-                        Developed a web forum as part of a project to teach a classmate web development utilizing Python and Django.
-                    </div>
+                        Instructed and aided in the development of a web forum as part of an extracurricular project to teach a classmate web development with Python and Django and provided insight into GET and POST HTTP methods, as well as backend form validation.                     </div>
                     <p>
                         Technologies used: <em>Python, Django, Bootstrap</em>
                     </p>
@@ -221,7 +231,7 @@
                         Software Testing (FGCU), Spring 2015
                     </p>
                     <div class="well">
-                        Developed a document similarity web app utilizing a variety of text comparison algorithms with Python and Django using test-driven development and continuous integration with Jenkins.
+                        Developed a document similarity web application incorporating a variety of text comparison analyses including distance, set similarity, and cosine similarity algorithms. Utilized test-driven development and test-first approach and used continuous integration to automate and track test case progress and branch coverage.
                     </div>
                     <p>
                         Technologies used: <em>Python, Django, Selenium, Jenkins CI</em>
@@ -234,7 +244,7 @@
                         Software Project in Computer Networks (FGCU), Fall 2014 
                     </p>
                     <div class="well">
-                        Developed an instructor course management website with functionality for adding new courses, course material, notifications, projects, and assignments for a faculty member using Django and Bootstrap.
+                        Developed a course management web application for a faculty member that enabled instructors to manage and add course content and included functionality for correspondence, project archival, and assignment and lesson delivery.
                     </div>
                     <p>
                         Technologies used: <em>Python, Django, Bootstrap, Apache Httpd</em>
@@ -247,7 +257,7 @@
                         Software Architecture & Design (FGCU), Fall 2014
                     </p>
                     <div class="well">
-                        Designed an Arduino-based bicycle computer to record speed and cycling cadence as well as a desktop client to view recorded data and track progress with JavaFX.
+                        Designed and built a bicycle computer for fitness tracking that recorded ride data including speed, distance, and cycling cadence and developed a desktop client application to view recorded trip data and generate graphs for each ride.
                     </div>
                     <p>
                         Technologies used: <em>Arduino, C, Java, JavaFX, JSON, Jackson</em>
@@ -260,11 +270,54 @@
                         Software Specifications (FGCU), Spring 2014
                     </p>
                     <div class="well">
-                        Developed software to locate, analyze, and graph tumor information according to client specifications outlined by a mathematics professor, utilizing rapid prototyping and close client involvement.
+                        Developed software to locate, analyze, and graph tumor information and projected growth according to specifications outlined by client and mathematics professor. Utilized rapid prototyping and close client involvement.
                     </div>
                     <p>
                         Technologies used: <em>Java, JavaFX</em>
                     </p>
+                </div>
+                
+                <div id="otherProjects" class="tab-pane fade">
+                    <h4>Other Projects</h4>
+                    <table class="table">
+                    <tr class="row">
+                    <td>
+                        C/C++ Command Line Project Management Tool
+                    </td>
+                    <td>
+                        Python, C/C++
+                    </td>
+                    <td>
+                        Side project, July 2015
+                    </td>
+                    
+                    </tr>
+                    <tr class="row">
+                    <td>
+                        USB Data Acquisition
+                    </td>
+                    <td>
+                        LabVIEW, Arduino
+                    </td>
+                    <td>
+                        Data Acquisition (FGCU), Fall 2014
+                    </td>
+                    
+                    </tr>
+                        
+                    <tr class="row">
+                    <td>
+                        Point of Sale Application
+                    </td>
+                    <td>
+                        Java, JavaFX
+                    </td>
+                    <td>
+                        Software Fundamentals (FGCU), Fall 2013
+                    </td>
+                    
+                    </tr>
+                    </table>
                 </div>
                 
                 </div>
@@ -279,11 +332,13 @@
           <a name="education" class="section">&nbsp;</a>
           <br><br><br>
         </div>
+        
         <div class="panel panel-default" data-center-top="opacity:0" data-200-top="opacity:1">
+<!--          <a name="education" class="section">&nbsp;</a>-->
           <div class="panel-heading"><h4><span class="glyphicon glyphicon-education"></span> Education</h4></div>
           <div class="panel-body">
 
-              <h4><em>Software Engineering (B.S)</em>, Florida Gulf Coast University</h4>
+        <h4><em>Software Engineering (B.S)</em>, Florida Gulf Coast University</h4>
           <table class="table">
             <tr class="row">
               <td>
@@ -302,6 +357,58 @@
               </td>
             </tr>
           </table>
+              
+            <h4>Online Courses</h4>
+          <table class="table">
+            <tr class="row">
+              <td>
+                JavaScript Basics
+              </td>
+              <td>
+                Udacity
+              </td>
+            </tr>
+            <tr class="row">
+              <td>
+                Intro to Relational Databases
+            </td>
+              <td>
+                Udacity
+              </td>
+            </tr>
+              <tr class="row">
+              <td>
+                  Internet History, Technology, and Security
+            </td>
+              <td>
+                Coursera
+              </td>
+            </tr>
+              <tr class="row">
+              <td>
+                  Introduction to Algorithms
+            </td>
+              <td>
+                MIT OCW
+              </td>
+            </tr>
+              <tr class="row">
+              <td>
+                  Mathematics for Computer Science
+            </td>
+              <td>
+                MIT OCW
+              </td>
+            </tr>
+              <tr class="row">
+              <td>
+                  Introduction to Computer Science and Programming
+            </td>
+              <td>
+                MIT OCW
+              </td>
+            </tr>
+          </table>
         </div>
         </div>
 
@@ -309,7 +416,9 @@
           <a name="work" class="section">&nbsp;</a>
           <br><br><br>
         </div>
+        
         <div class="panel panel-default" data-center-top="opacity:0" data-200-top="opacity:1">
+<!--            <a name="work" class="section">&nbsp;</a>-->
           <div class="panel-heading"><h4><span class="glyphicon glyphicon-wrench"></span> Work</h4></div>
           <div class="panel-body">
               
@@ -317,10 +426,10 @@
               <table class="table">
                   <tr class="row">
                       <td>Reston, VA</td>
-                      <td>September 2015 &#8212; Present</td>
+                      <td>September 2015 &#8212; November 2015</td>
                   </tr>
                   <tr class="row">
-                      <td colspan="2"><div class="col-md-9">Designed and developed Java enterprise applications</div></td>
+                      <td colspan="2"><div class="col-md-9">Designed and developed Java enterprise applications and projects including development of a parts catalog and inventory system and an employee management portal</div></td>
                   </tr>
               </table>
 
