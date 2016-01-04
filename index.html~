@@ -95,7 +95,7 @@
             <div class="col-md-6">
           <h4>Java</h4>
           <p>
-            JDBC, Hibernate, JSP, Tiles, Struts, Spring, JavaFX, JUnit
+            JDBC, Hibernate, Servlets, Struts, Spring, JSP, Tiles, JavaFX, JUnit, Maven
           </p>
             <hr>
               </div>
@@ -103,7 +103,7 @@
               <div class="col-md-6">
           <h4>Python</h4>
           <p>
-            Python 2.x, Python 3.x, psycopg2, Django
+            Python 2.x, Python 3.x, psycopg2, SQLAlchemy, Flask, Jinja, Django
           </p>
               <hr>
               </div>
@@ -111,7 +111,7 @@
                   <div class="col-md-6">
           <h4>Other Languages</h4>
           <p>
-            C, C++, Assembly, MATLAB, LabVIEW
+            C, C++, Assembly, MATLAB, Arduino, LabVIEW
           </p>
             <hr>
               </div>
@@ -119,7 +119,7 @@
               <div class="col-md-6">
           <h4>Data</h4>
           <p>
-            SQL, Oracle Database, PostgreSQL, XML, JSON
+            SQL, Oracle Database, PostgreSQL, Redis, JSON, XML
           </p>
               <hr>
               </div>
@@ -127,7 +127,7 @@
               <div class="col-md-6">
           <h4>Web</h4>
           <p>
-            HTML, CSS, JavaScript, jQuery, Bootstrap, Web Services
+            JavaScript, jQuery, Angular, HTML, CSS, Bootstrap, Apache, WebLogic, REST
           </p>
               <hr>
               </div>
@@ -135,7 +135,7 @@
               <div class="col-md-6">
           <h4>Design Patterns</h4>
           <p>
-            Singleton, Factory, MVC, Front Controller, DAO
+            Singleton, Factory, Decorator, MVC, Front Controller, DAO
           </p>
               <hr>
               </div>
@@ -143,7 +143,7 @@
                  <div class="col-md-6">
           <h4>Tools</h4>
           <p>
-            Bash, Git, Vagrant, UML, Vim, Eclipse, Photoshop
+            Bash, regex, Git, Vagrant, Heroku, UML, Vim, Eclipse, Photoshop
           </p>
             <hr>
               </div>
@@ -151,7 +151,7 @@
               <div class="col-md-6">
           <h4>OS & Servers</h4>
           <p>
-            Linux, OS X, Windows, Apache Httpd, Tomcat, WebLogic, Jenkins CI
+            Linux, OS X, Windows, Apache, WebLogic, Jenkins
           </p>
               <hr>
               </div>
