@@ -1,0 +1,9 @@
+# Frontend files
+bower_components/*
+node_modules/*
+**/.sass-cache/*
+
+
+# Vim files
+*~
+.*.sw*
