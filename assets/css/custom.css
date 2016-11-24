@@ -91,7 +91,8 @@ hr {
 
 .toggle-btn {
   margin: 15px;
-  color: #34495E; }
+  color: #34495E;
+  border-color: #34495E; }
   .toggle-btn:hover, .toggle-btn:focus, .toggle-btn:active {
     color: #5499C7;
     border-color: #5499C7;

@@ -14,18 +14,9 @@ body {
     background-color: $white;
 }
 
-body > div.container {
-    //background-color: $gray;
-    //min-height: 100%;
-    //margin-bottom: -50px;
-    //padding-bottom: 50px;
-    //padding: 10px 10px 10px 10px;
-}
-
 hr {
     border-color: $dark;
 }
-
 
 .navbar-default {
     background-color: $primary;
@@ -116,10 +107,6 @@ hr {
         font-size: 54px;
         margin-bottom: 20px;
     }
-
-    h3 {
-        //margin-bottom: 20px;
-    }
 }
 
 .light-section {
@@ -149,6 +136,8 @@ hr {
 .toggle-btn {
     margin: 15px;
     color: $primary;
+    border-color: $primary;
+
     &:hover, &:focus, &:active {
         color: $secondary;
         border-color: $secondary;
