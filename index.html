@@ -1,585 +1,418 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="Elliot Hutchinson's Portfolio">
-    <meta name="author" content="Elliot Hutchinson">
-    <link rel="icon" href="assets/img/favicon.ico">
-
-    <title>Elliot Hutchinson &mdash; Software Engineer Portfolio</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-
-    <!-- Custom css -->
-    <link href="assets/css/custom.css" rel="stylesheet">
-
-    <link href="assets/img/favicon.png" rel="shortcut icon" type="image/png">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <title>Elliot Hutchinson — Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
-
-  <body>
-
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+  <body id="home">
+    <section class="hero is-dark is-bold is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Elliot Hutchinson,
+            <span class="is-italic">Software Engineer</span>
+          </h1>
+          <h2 class="subtitle">
+            Technology enthusiast and software engineer looking for a challenge. Competent across the stack with experience with Java enterprise applications and Python web development.
+          </h2>
+        </div>
+      </div>
+    </section>
+    <section class="section">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a id="nav_home" class="navbar-brand" href="#">Elliot Hutchinson</a>
-        </div> <!-- end navbar-header -->
-        <div id="navbar" class="navbar-collapse collapse pull-right">
-          <ul class="nav navbar-nav">
-            <li id="nav_skills"><a href="#skills">Skills</a></li>
-            <li id="nav_projects"><a href="#projects">Projects</a></li>
-            <li id="nav_education"><a href="#education">Education</a></li>
-            <li id="nav_about"><a href="#about">About</a></li>
-            <li id="nav_connect"><a href="#connect">Connect</a></li>
-          </ul>
-        </div><!-- end navbar-collapse -->
-      </div><!-- end container -->
-    </nav> <!-- end navbar-fixed -->
-
-    <div class="wide accent empty"></div>
-    <div class="wide accent empty"></div>
-    <div class="wide accent empty top-transition"></div>
-    <div class="wide dark empty bot-transition"></div>
-    <div class="wide dark">
-      <div class="container"> <!-- jumbotron container -->
-
-        <div class="jumbotron">
-          <h1>Elliot Hutchinson, <em>Software Engineer</em></h1>
-          <p>Technology enthusiast and software engineer looking for a challenge. Competent across the stack with experience with Java enterprise applications and Python web development.</p>
-        </div> <!-- end jumbotron -->
-
-      </div> <!-- end jumbotron container -->
-    </div> <!-- end wide -->
-
-
-    <div class="wide dark empty top-transition"></div>
-    <div class="wide secondary empty bot-transition"></div>
-    <div class="wide secondary empty"></div>
-    <div class="wide secondary empty"></div>
-    <div class="wide primary tall empty"></div>
-
-    <div class="wide dark empty"></div>
-
-    <div class="wide white">
-      <div class="container"> <!-- skills container -->
-
-        <div id="skills" class="nav-section"></div>
-
-        <div class="light-section section">
-          <h1>Skills</h1>
-
-          <div class="content">
-            <button class="btn toggle-btn" data-toggle="collapse" data-target="#overview">Overview</button>
-
-            <div id="overview" class="less-room-above collapse">
-              <div class="row skill-row">
-                <h3>Summary of Qualifications</h3>
-
-                <div class="col-md-5">
-                  <ul>
-                    <li>Strong Java, Python, JavaScript, and SQL skills</li>
-                    <li>Proficient with C++, C#, and MATLAB</li>
-                    <li>Experience with Fedora and Debian-based Linux distros</li>
-                    <li>Knowledge of data structures and algorithm complexity</li>
-                    <li>Exposure to design patterns</li>
-                    <li>Understanding of database design and normalization</li>
-                  </ul>
-                </div> <!-- end col -->
-
-                <div class="col-md-5">
-                  <ul>
-                    <li>Understanding of SOA and REST and SOAP web services</li>
-                    <li>Experience implementing and consuming RESTful APIs</li>
-                    <li>Experience building single-page applications</li>
-                    <li>Experience with multiple MVC frameworks and ORMs</li>
-                    <li>Understanding of HTTP, TCP, UDP, and WebSockets</li>
-                  </ul>
-                </div> <!-- end col -->
-
-              </div> <!-- end skill row -->
-
-              <hr class="featurette-divider">
-            </div> <!-- end collapse overview -->
-
-            <div> <!-- specific skills -->
-              <div class="row skill-row">
-
-                <div class="col-md-3">
-                  <img src="assets/img/java.png" width="25%" height="25%">
-                  <h3>Java-Related</h3>
-                  <ul>
-                    <li>Spring</li>
-                    <li>Struts</li>
-                    <li>Servlets</li>
-                    <li>JSP</li>
-                    <li>Thymeleaf</li>
-                    <li>Hibernate</li>
-                    <li>JavaFX</li>
-                    <li>JUnit</li>
-                    <li>Maven</li>
-                  </ul>
-                </div> <!-- end col -->
-
-                <div class="col-md-3">
-                  <img src="assets/img/python.png" width="25%" height="25%">
-                  <h3>Python-Related</h3>
-                  <ul>
-                    <li>Python 2/3</li>
-                    <li>Django</li>
-                    <li>Flask</li>
-                    <li>SQLAlchemy</li>
-                    <li>Jinja</li>
-                    <li>Pelican</li>
-                    <li>Celery</li>
-                    <li>NLTK</li>
-                  </ul>
-                </div> <!-- end col -->
-
-                <div class="col-md-3">
-                  <img src="assets/img/javascript.png" width="25%" height="25%">
-                  <h3>JavaScript-Related</h3>
-                  <ul>
-                    <li>Angular</li>
-                    <li>jQuery</li>
-                    <li>Handlebars</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Sass</li>
-                    <li>Bootstrap</li>
-                    <li>Gulp</li>
-                    <li>Node</li>
-                  </ul>
-                </div> <!-- end col -->
-
-                <div class="col-md-3">
-                  <img src="assets/img/code.png" width="25%" height="25%">
-                  <h3>Other</h3>
-                  <ul>
-                    <li>C++</li>
-                    <li>C#</li>
-                    <li>MATLAB</li>
-                    <li>Bash</li>
-                    <li>Arduino</li>
-                    <li>LabVIEW</li>
-                    <li>Assembly</li>
-                    <li>SFML</li>
-                  </ul>
-                </div> <!-- end col -->
-
-              </div> <!-- end skill row -->
-
-              <div class="row">
-
-                <div class="col-md-3">
-                  <img src="assets/img/bulb.png" width="25%" height="25%">
-                  <h3>Concepts</h3>
-                  <ul>
-                    <li>Data Structures</li>
-                    <li>Design Patterns</li>
-                    <li>OOP</li>
-                    <li>TDD</li>
-                    <li>SOA</li>
-                    <li>HTTP</li>
-                    <li>Sockets</li>
-                  </ul>
-                </div> <!-- end col -->
-
-                <div class="col-md-3">
-                  <img src="assets/img/data.png" width="25%" height="25%">
-                  <h3>Data</h3>
-                  <ul>
-                    <li>SQL</li>
-                    <li>PostgreSQL</li>
-                    <li>Oracle Database</li>
-                    <li>Redis</li>
-                    <li>JSON</li>
-                    <li>XML</li>
-                    <li>REST & SOAP Web Services</li>
-                  </ul>
-                </div> <!-- end col -->
-
-                <div class="col-md-3">
-                  <img src="assets/img/os.png" width="25%" height="25%">
-                  <h3>OS and Servers</h3>
-                  <ul>
-                    <li>Linux</li>
-                    <li>Windows</li>
-                    <li>OS X</li>
-                    <li>Vagrant</li>
-                    <li>Apache</li>
-                    <li>Jenkins</li>
-                    <li>Heroku</li>
-                  </ul>
-                </div> <!-- end col -->
-
-                <div class="col-md-3">
-                  <img src="assets/img/tools.png" width="25%" height="25%">
-                  <h3>Tools</h3>
-                  <ul>
-                    <li>Git</li>
-                    <li>UML</li>
-                    <li>regex</li>
-                    <li>Eclipse</li>
-                    <li>Visual Studio</li>
-                    <li>Photoshop</li>
-                    <li>Premiere</li>
-                    <li>Office</li>
-                  </ul>
-                </div> <!-- end col -->
-
-              </div> <!-- end row -->
-            </div> <!-- end specific skills -->
-          </div> <!-- end skills content -->
-
-        </div> <!-- end skills section -->
-
-      </div> <!-- end skills container -->
-    </div> <!-- end wide -->
-
-
-    <div class="wide secondary empty"></div>
-    <div class="wide gray">
-      <div class="container"> <!-- projects container -->
-
-        <div id="projects" class="nav-section"></div>
-
-        <div class="light-section section">
-          <h1>Projects</h1>
-
-          <div class="content"> <!-- project content -->
-            <h2>Small Business Box</h2>
-            <p>Fall 2016</p>
-            <p>Developed a suite of business apps centered around an employee manager core with a RESTful API and SPA client. Feature support includes employee and department management, profiles, employee directory, and messaging system. Developed with Python, Flask, and Angular.</p>
-            <p><em>Technologies: Python, Flask, SQLAlchemy, PostgreSQL, Angular, Gulp, REST</em></p>
-
-            <h2>CMS</h2>
-            <p>Spring 2016</p>
-            <p>Developed a content management system suitable for use as a multi-author blog. Features include section and tag-specific content, file upload support, archives, featured articles, reader comments, and a RESTful API. Written in Java using the Spring framework and jQuery.</p>
-            <p><em>Technologies: Java, Spring, Thymeleaf, PostgreSQL, jQuery, Handlebars, Grunt, REST</em></p>
-
-            <h2>Issue Tracker</h2>
-            <p>Spring 2016</p>
-            <p>Developed a general issue tracker for use as a bug tracker, help desk support, or any scenario that requires a ticketing system. Features include project and ticket management, priority and status adjustment, archives, comment support, and a RESTful API. Developed with Python, Flask, and jQuery.</p>
-            <p><em>Technologies: Python, Flask, Jinja, SQLAlchemy, PostgreSQL, jQuery, Handlebars, Grunt, REST</em></p>
-
-            <button class="btn toggle-btn" data-toggle="collapse" data-target="#other-projects">Other Projects</button>
-            <div id="other-projects" class="lesser-room-above collapse">
-
-              <h3>Other Projects</h3>
-
-              <div class="skill-row">
-                <h4>Employee Management Portal</h4>
-                <p>Fall 2015</p>
-                <p>Developed an employee management portal that supported different authorization roles including employees, managers, and administrators and enabled authenticated users access to their respective portals which included functionality for employees to view and update their profiles, for managers to manage and add employees in their department, as well as for administrators to grant and revoke manager and admin status to existing employees.</p>
-                <p><em>Technologies: Java, Spring, Tiles, JSP, Hibernate, Oracle Database, jQuery, WebLogic</em></p>
-              </div> <!-- end project skill-row -->
-
-              <div class="skill-row">
-                <h4>Online Parts Catalog</h4>
-                <p>Fall 2015</p>
-                <p>Developed an online parts catalog with functionality for inventory managers to add, update, and remove parts from their catalog and enabled authenticated dealers to search and view parts by name and keyword.</p>
-                <p><em>Technologies: Java, Struts, JSP, Hibernate, Oracle Database, WebLogic</em></p>
-              </div> <!-- end project skill-row -->
-
-              <div class="skill-row">
-                <h4>cmkproject</h4>
-                <p>Summer 2015</p>
-                <p>Developed a command-line utility for simplifying C/C++ project creation outside of IDEs.</p>
-                <p><em>Technologies: Python, C, C++, make</em></p>
-              </div> <!-- end project skill-row -->
-
-              <div class="skill-row">
-                <h4>Forum</h4>
-                <p>Spring 2015</p>
-                <p>Instructed and aided in the development of a web forum as part of an extracurricular project to teach a classmate web development with Python and Django and provided insight into GET and POST HTTP methods, as well as backend form validation.</p>
-                <p><em>Technologies: Python, Django</em></p>
-              </div> <!-- end project skill-row -->
-
-            </div> <!-- end academic-projects -->
-
-          </div> <!-- end project content -->
-        </div> <!-- end projects section -->
-
-      </div> <!-- end projects container -->
-    </div> <!-- end wide -->
-
-
-    <div class="wide white empty"></div>
-    <div class="wide accent">
-      <div class="container"> <!-- education container -->
-
-        <div id="education" class="nav-section"></div>
-
-        <div class="light-section section">
-          <h1>Education</h1>
-
-          <div class="content">
-            <h2>Software Engineering (B.S.), Florida Gulf Coast University</h2>
-            <p>Fort Myers, FL &mdash; Spring 2015</p>
-            <p>Major GPA: 3.83</p>
-            <p>Honors: <em>President's List</em> &mdash; 2 semesters, <em>Dean's List</em> &mdash; 5 semesters</p>
-            <p>Fun Fact: Enjoyed a 30 mile round-trip bicycle commute</p>
-
-            <button class="btn toggle-btn" data-toggle="collapse" data-target="#courses">Courses</button>
-            <button class="btn toggle-btn" data-toggle="collapse" data-target="#academic-projects">Projects</button>
-
-            <div id="courses" class="row collapse lesser-room-above">
-
-              <h3>FGCU Courses</h3>
-              <div class="col-md-3">
-                <ul>
-                  <li>Intro to Computer Science</li>
-                  <li>Intro to Programming</li>
-                  <li>Programming Methodology</li>
-                  <li>Object-Oriented Programming</li>
-                  <li>Digital Systems</li>
-                  <li>Data Acquisition & Control Systems</li>
-                  <li>Computer Organization & Assembly Language</li>
-                  <li>Data Structures & Algorithms</li>
-                  <li>Operating Systems</li>
-                </ul>
-              </div>  <!-- end col -->
-
-              <div class="col-md-3">
-                <ul>
-                  <li>Intro to Data Engineering</li>
-                  <li>Software Engineering Fundamentals</li>
-                  <li>Software Specifications</li>
-                  <li>Software Architecture & Design</li>
-                  <li>Software Testing</li>
-                  <li>Software Project in Computer Networks</li>
-                  <li>Senior Software Engineering Project</li>
-                </ul>
-              </div>  <!-- end col -->
-
-              <div class="col-md-3">
-                <ul>
-                  <li>Calculus I & II</li>
-                  <li>Statistics</li>
-                  <li>Discrete Mathematics</li>
-                  <li>Computational Tools for Engineers</li>
-                  <li>General Physics I & II</li>
-                  <li>General Chemistry I</li>
-                  <li>General Biology I</li>
-                </ul>
-              </div>  <!-- end col -->
-
-              <div class="col-md-3">
-                <ul>
-                  <li>Engineering Entrepreneurship</li>
-                  <li>Ethical Issues</li>
-                  <li>General Psychology</li>
-                  <li>Professional Writing</li>
-                  <li>Intro to Creative Writing</li>
-                </ul>
-              </div> <!-- end col -->
-
-            </div> <!-- end row -->
-
-            <div id="academic-projects" class="collapse lesser-room-above">
-
-              <h3>FGCU Projects</h3>
-
-              <div class="skill-row">
-                <h4>Document Similarity Analysis</h4>
-                <p>Spring 2015</p>
-                <p>Developed a document similarity web application incorporating a variety of text comparison analyses including distance, set similarity, and cosine similarity algorithms. Utilized test-driven development and test-first approach and used continuous integration to automate and track test case progress and branch coverage.</p>
-                <p><em>Technologies: Python, NLTK, Django, Jenkins</em></p>
-              </div> <!-- end project skil-row -->
-
-              <div class="skill-row">
-                <h4>PLAY Educational Site</h4>
-                <p>Spring 2015</p>
-                <p>Developed the backend and source material of an educational website that aimed to introduce programming, logic, and algorithms to youth (PLAY) with support for lessons and quizzes.</p>
-                <p><em>Technologies: Python, Django, JavaScript, Apache</em></p>
-              </div> <!-- end project skil-row -->
-
-              <div class="skill-row">
-                <h4>Learning Management System</h4>
-                <p>Fall 2014</p>
-                <p>Developed a course management web application for a faculty member that enabled instructors to manage and add course content and included functionality for correspondence, project archival, and assignment and lesson delivery.</p>
-                <p><em>Technologies: Python, Django, Apache</em></p>
-              </div> <!-- end project skill-row -->
-
-              <div class="skill-row">
-                <h4>Bicycle Computer</h4>
-                <p>Fall 2014</p>
-                <p>Designed and built a bicycle computer for fitness tracking that recorded ride data including speed, distance, and cycling cadence and developed a desktop client application to view recorded trip data and generate graphs for each ride.</p>
-                <p><em>Technologies: C, Arduino, Java, JavaFX, JSON</em></p>
-              </div> <!-- end project skill-row -->
-
-              <div class="skill-row">
-                <h4>USB Data Acquisition</h4>
-                <p>Fall 2014</p>
-                <p>Developed a series of LabVIEW applications modeling responsive systems for data acquisition with temperature and lighting sensors using the USB protocol.</p>
-                <p><em>Technologies: LabVIEW, C, Arduino, USB</em></p>
-              </div> <!-- end project skill-row -->
-
-              <div class="skill-row">
-                <h4>MRI Image Analysis</h4>
-                <p>Spring 2014</p>
-                <p>Developed software to locate, analyze, and graph tumor information and projected growth according to specifications outlined by client and mathematics professor. Utilized rapid prototyping and close client involvement.</p>
-                <p><em>Technologies: Java, JavaFX</em></p>
-              </div> <!-- end project skill-row -->
-
-              <div class="skill-row">
-                <h4>POS Software</h4>
-                <p>Fall 2013</p>
-                <p>Developed point-of-sale software including the design of UI mockups and implementation of the GUI client.</p>
-                <p><em>Technologies: Java, JavaFX</em></p>
-              </div> <!-- end project skill-row -->
-
-            </div> <!-- end academic-projects -->
-
-            <hr class="featurette-divider">
-
-
-            <h2>Online Courses</h2>
-
-            <button class="btn toggle-btn" data-toggle="collapse" data-target="#online-courses">Courses</button>
-
-            <div id="online-courses" class="row collapse lesser-room-above">
-
-              <div class="col-md-3">
-                <h4>Udacity</h4>
-                <ul>
-                  <li>Intro to Relational Databases</li>
-                  <li>JavaScript Basics</li>
-                  <li>Object-Oriented JavaScript</li>
-                  <li>Full-Stack Foundations</li>
-                  <li>Designing RESTful APIs</li>
-                  <li>Computer Networking</li>
-                </ul>
-              </div>  <!-- end col -->
-
-              <div class="col-md-3">
-                <h4>MIT OCW</h4>
-                <ul>
-                  <li>Introduction to Computer Science and Programming</li>
-                  <li>Mathematics for Computer Science</li>
-                  <li>Introduction to Algorithms</li>
-                  <li>Computer Systems Security</li>
-                </ul>
-              </div>  <!-- end col -->
-
-              <div class="col-md-3">
-                <h4>Coursera</h4>
-                <ul>
-                  <li>Internet History, Technology, and Security</li>
-                </ul>
-              </div>  <!-- end col -->
-
-            </div> <!-- end row -->
-
-          </div> <!-- end education content -->
-
-        </div> <!-- end education section -->
-
-      </div> <!-- end education container -->
-    </div> <!-- end wide -->
-
-
-    <div class="wide gray empty"></div>
-
-    <div class="wide secondary">
-      <div class="container"> <!-- about container -->
-
-        <div id="about" class="nav-section"></div>
-
-        <div class="dark-section section">
-          <h1>About</h1>
-
-          <div class="content">
-            <p>I grew up in Pittsburgh, PA. I’ve always had a curiosity for computers and a strong desire to never have technology feel like magic to me. I’d say I’m making good on that. My professional interests include software architecture and data analysis. I'm looking to relocate to D.C. or New York, but I'm open to other possibilities.</p>
-            <p>When I’m not at my computer, my other interests lead me to German-style board games, philosophy, and cycling.</p>
-          </div> <!-- end about content -->
-
-        </div> <!-- end about section -->
-
-      </div> <!-- end about container -->
-    </div> <!-- end wide -->
-
-
-    <div class="wide accent empty"></div>
-
-    <div class="wide dark">
-      <div class="container"> <!-- connect container -->
-
-        <div id="connect" class="nav-section"></div>
-
-        <div class="dark-section section">
-          <h1>Connect</h1>
-
-          <div class="content">
-
-            <p class="room-below">I'm currently in Boca Raton, FL, but I'm always looking for new challenges &mdash;anywhere, relocation is fine&mdash; so if you'd like to discuss available opportunities with me, feel free to reach out to me on LinkedIn. For anything else, send me an email.</p>
-
-            <div class="row skill-row">
-
-              <div class="col-md-3">
-                <a href="https://github.com/postsneakernet">
-                  <img src="assets/img/github.png" width="25%" height="25%">
-                  <h3>GitHub</h3>
-                </a>
-              </div> <!-- end col -->
-
-              <div class="col-md-3">
-                <a href="https://www.linkedin.com/in/elliothutchinson">
-                  <img src="assets/img/linkedin.png" width="25%" height="25%">
-                  <h3>LinkedIn</h3>
-                </a>
-              </div> <!-- end col -->
-
-              <div class="col-md-3">
-                <a href="mailto:elliot@elliothutchinson.com">
-                  <img src="assets/img/email.png" width="25%" height="25%">
-                  <h3>Email</h3>
-                </a>
-              </div> <!-- end col -->
-
-            </div> <!-- end row -->
-
-          </div> <!-- end connect content -->
-
-        </div> <!-- end connect section -->
-
-      </div> <!-- end connect container -->
-    </div> <!-- end wide -->
-
-
-    <footer class="wide primary footer">
-      <span>&copy; Copyright 2016 &mdash; Elliot Hutchinson</span>
+        <h1 class="title">
+          About
+        </h1>
+        <p class="subtitle">
+          I'm a software engineer residing in Boca Raton. I got started with programming with Python over a decade ago and haven't looked back since. My career interests are in architecture, security, and machine learning. I'm always open to remote, Boca Raton, Portland, and Seattle opportunities, so feel free to reach out.
+        </p>
+        <p class="subtitle">
+          When I'm not at my computer I'm probably on my bicycle.
+        </p>
+        <p class="subtitle">
+          <a href="https://linkedin.com/in/elliothutchinson">LinkedIn</a> | <a href="https://github.com/postsneakernet">GitHub</a>
+        </p>
+      </div>
+    </section>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#skills">
+          Skills
+        </a>
+        <a class="navbar-item" href="#education">
+          Education
+        </a>
+        <a class="navbar-item" href="#experience">
+          Experience
+        </a>
+        <a class="navbar-item" href="#projects">
+          Projects
+        </a>
+      </div>
+    </nav>
+    <section id="skills" class="hero is-info is-small">
+      <div class="hero-body">
+      </div>
+    </section>
+    <section class="hero is-dark is-small">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Skills
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Java
+        </h1>
+        <p class="subtitle is-6">
+          Spring, Hibernate, JUnit, JMockit, Gradle, Tomcat
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          JavaScript
+        </h1>
+        <p class="subtitle is-6">
+          React, Jest, Node, HTML, CSS
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Python
+        </h1>
+        <p class="subtitle is-6">
+          Flask, Django, SQLAlchemy, Pelican, Celery
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Data
+        </h1>
+        <p class="subtitle is-6">
+          PostgreSQL, SQL Server, Couchbase, Redis, REST, GraphQL
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Tools
+        </h1>
+        <p class="subtitle is-6">
+          Linux, Windows, macOS, Docker, Jenkins, Git, Photoshop
+        </p>
+      </div>
+    </section>
+    <section class="hero is-info is-small" id="education">
+      <div class="hero-body">
+      </div>
+    </section>
+    <section class="hero is-dark is-small">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Education
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p class="title is-5">
+          Software Engineering, B.S., 3.83 Major GPA — Florida Gulf Coast University, Fort Myers, FL — Spring 2015
+        </p>
+        <div class="content is-small">
+          <p class="subtitle is-6">
+            <strong>Courses:</strong> Software Architecture, Testing, OOP, Data Engineering, Data Structures, Networks, OS, Discrete Math, Stats
+          </p>
+          <p class="subtitle is-6">
+            <strong>Involvement:</strong> IEEE Computer Society, Computer Science Club, Hobby Game Club, Bicycle Commuter
+          </p>
+          <p class="subtitle is-6">
+            <strong>Volunteerism:</strong> Lego League Robotics, STEM Tour, Solar Go-Kart Challenge, Calusa Nature Center
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="hero is-info is-small" id="experience">
+      <div class="hero-body">
+      </div>
+    </section>
+    <section class="hero is-dark is-small">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Experience
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Software Engineer (Remote) — Brooksource (Florida Blue), Jacksonville, FL — August 2019-December 2019
+        </h1>
+        <p class="subtitle is-6">
+          Backend software engineer in healthcare claims domain at Florida Blue. Designed initial phase of healthcare claims controllership web app to support business leadership dashboard. Developed backend RESTful APIs and backing stored procedures providing claim reporting for metrics, drilldowns, URL sharing, and Excel export, and support for alert subscriptions and dashboard customization.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Lead Java Developer — Insight Global (Office Depot), Boca Raton, FL — September 2018-August 2019
+        </h1>
+        <p class="subtitle is-6">
+          Designed technical solutions for microservice architecture in agile environment for enterprise-level e-commerce at Office Depot. Implemented and deployed new microservices and provided code coverage with unit and performance tests. Incorporated caching mechanisms and concurrent designs for performance optimization. Coordinated development with 3rd parties. Maintained and supported migration of legacy web apps into microservices. Supported production releases.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          IT Programmer Analyst — Insight Global (NextEra Energy), Juno Beach, FL — March 2018-August 2018
+        </h1>
+        <p class="subtitle is-6">
+          SDET/automation engineer in agile environment at NextEra Energy. Developed testing libraries for a multi-project test framework. Developed enhancements for a desktop energy trading application. Developed automated unit and functional tests. Contributed to code reviews and provided guidance and best practices to junior developers.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Software Engineer — Ordyx, Boca Raton, FL — February 2017-March 2018
+        </h1>
+        <p class="subtitle is-6">
+          Full-stack software development of hospitality and restaurant software. Designed and developed custom software solutions. Built custom integrations with other software vendors. Extended legacy software. Identified and provided solutions to security vulnerabilities. Automated functional tests. Mentored junior engineers.
+        </p>
+      </div>
+    </section>
+    <section class="hero is-info is-small" id="projects">
+      <div class="hero-body">
+      </div>
+    </section>
+    <section class="hero is-dark is-small">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Projects
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Claims Controllership Dashboard — Florida Blue — Java, Spring, SQL Server, Oracle Database, Jenkins
+        </h1>
+        <p class="subtitle is-6">
+          Developed RESTful API for claims controllership dashboard providing reporting, customizable dashboard options, report URL sharing, Excel export, and alert subscription system.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Teachers’ List Notification Scheduler — Office Depot — Java, Spring, JUnit, JMockit, JMeter, SOAP, Couchbase, SQL Server, Jenkins
+        </h1>
+        <p class="subtitle is-6">
+          Built system to check availability of educational product lists to email customers when schools release their yearly teachers’ lists with multi-system communication including API for notification request, product info population service, and SOAP email service.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Bulk Product Info Microservice — Office Depot — Java, Spring, JUnit, JMockit, JMeter, GraphQL, Ehcache, Jenkins
+        </h1>
+        <p class="subtitle is-6">
+          Developed API to gather data from multiple downstream services concurrently for pricing, availability, and static product information with cache design using events to provide benefits of a distributed cache with speed of local cache.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Google Reviews Microservice — Office Depot — Java, Spring, Google Maps/My Business API, OAuth 2, Couchbase, Jenkins
+        </h1>
+        <p class="subtitle is-6">
+          Built microservice to provide API for querying Google Reviews for retail locations to gather metrics to be used for creating dashboards to track rating and responding to recent reviews.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Micro App Server-Side Cache Layer — Office Depot — Java, JSP, Struts, Ehcache, JavaScript, Node, Bash, Groovy
+        </h1>
+        <p class="subtitle is-6">
+          Developed support for caching server-side requested React apps from legacy Struts app supporting arbitrary context information passed in app request with dynamic caching to transparently support future apps, and cache-clearing endpoints for CI pipeline.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Cross Sells Microservice — Office Depot — Java, Spring, JUnit, JMockit, JMeter, Ehcache, SQL Server, Jenkins
+        </h1>
+        <p class="subtitle is-6">
+          Developed microservice to provide cross sells of related products sourced from manually input products and AI-generated cross sells for retail chain’s store lockers to provide customers with related product offers when picking up orders.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Tree-Based Script Runner Automation Tool — Side 2018 — Java, Spring, React
+        </h1>
+        <p class="subtitle is-6">
+          Developed web app for configuring and scheduling batch of hierarchical execution of jobs allowing parallel completion of scripts suitable for use as an automation tool using a microservice architecture with single page application.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Automatic Invoice Attachment — NextEra Energy — Java, Scala, Hibernate, Swing
+        </h1>
+        <p class="subtitle is-6">
+          Developed feature for users to bulk-add pending invoice attachments to be associated with automatically generated invoices in backend job and custom tree-view UI for energy trading desktop application.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Tax Rate Definition — NextEra Energy — Java, Scala, Hibernate, Swing
+        </h1>
+        <p class="subtitle is-6">
+          Developed feature for desktop energy trading application for users to define and manage tax rates for counterparties for a given date range, import tax rates in CSV files, and staging area for line item correction and validation.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Test Automation Framework Dynamic Form Filler — NextEra Energy — JavaScript
+        </h1>
+        <p class="subtitle is-6">
+          Developed dynamic form filling support allowing arbitrary data insertion order for disabled fields and fields driven by combo boxes utilizing a queue implemented as a circular linked list.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Test Automation Framework API Cleanup — NextEra Energy — JavaScript
+        </h1>
+        <p class="subtitle is-6">
+          Refactored low-level legacy code and wrapped in IIFEs to hide implementation details and apply logging and assertions to common libraries, built fluent API for SQL execution to share connection and hide common clean-up code in execute-around pattern.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          CRM Portal — Ordyx — Java, Spring, MySQL, AngularJS
+        </h1>
+        <p class="subtitle is-6">
+          Developed CRM supporting runtime business workflow definitions for a dependency hierarchy of manual and automated tasks modeling a directed acyclic graph with support for required, optional, conditional, and mutually exclusive tasks.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Report Queue — Ordyx — Java, JAX-RS, AngularJS, MySQL
+        </h1>
+        <p class="subtitle is-6">
+          Developed report queue, RESTful API and frontend client for asynchronously processing report requests to reduce server load and improve user experience with compression, caching, email support, and report management.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Ordyx Remote Mobile App — Ordyx — Deployed Version 1.3 App Store and Play Store — Java, JAX-RS, Codename One
+        </h1>
+        <p class="subtitle is-6">
+          Developed cross-platform mobile app and backend for users to manage restaurant, message servers, authorize requests, and view servers, open orders, and reports.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Small Business Box — Side 2016 — Python, Flask, AngularJS, PostgreSQL
+        </h1>
+        <p class="subtitle is-6">
+          Developed suite of business apps centered around employee manager core with RESTful API and SPA client with support for employee and department management, profiles, employee directory, and messaging system.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          CMS — Side 2016 — Java, Spring, jQuery, PostgreSQL
+        </h1>
+        <p class="subtitle is-6">
+          Developed content management system suitable for use as a multi-author blog with features for section and tag-specific content, file upload support, archives, featured articles, reader comments, and RESTful API.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Issue Tracker — Side 2016 — Python, Flask, jQuery, PostgreSQL
+        </h1>
+        <p class="subtitle is-6">
+          Developed general issue tracker for use as bug tracker, help desk support, or scenario requiring ticketing system with features including project and ticket management, priority and status adjustment, archives, comment support, and RESTful API.
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p class="subtitle is-6">
+          &copy; 2016 - 2020 Elliot Hutchinson
+        </p>
+      </div>
     </footer>
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/lib/jquery.min.js"><\/script>')</script>
-    <script src="assets/lib/bootstrap.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
-
   </body>
 </html>
