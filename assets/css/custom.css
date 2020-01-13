@@ -7,6 +7,10 @@ a {
   color: #125f93;
 }
 
+.profile {
+  border-radius: 50%;
+}
+
 .hero.is-info {
   background-color: #125f93;
 }
