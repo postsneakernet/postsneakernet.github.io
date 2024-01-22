@@ -268,13 +268,13 @@
         </div>
       </div>
     </section>
-    <section class="section">
+        <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Patient Dose Week History — Glooko — Python, FastAPI, Pydantic, Beanie, React, MongoDB, Pytest, Jenkins
+          Diabetes Treatment Platform — Glooko — Python, FastAPI, React, MongoDB, PostgreSQL, gRPC, Kafka
         </h1>
         <p class="subtitle is-6">
-          Built backend API and React components for health care provider dashboard to query historical treatment plan data including status changes, dose injection updates, dose week compliancy and corresponding weekly data.
+          Developed from trial phase through FDA submission of SaMD platform. Broke down monolithic Rails app into microservices. Switched 3 teams over to Python tech stack. Wrote template used as base for all microservices. Developed auth API for access and refresh tokens. Implemented middleware to apply authorization for target API user roles. Setup request ID in middleware to improve log debugging between services. Implemented API for treatment plan management allowing provider to prescribe, edit, and suspend patient care. Added support to process Kafka messages for patient maintenance. Implemented patient adjustment API allowing patient to track hypo events and fasting blood glucose readings, request dose recommendations, and log dose injections.
         </p>
       </div>
     </section>
@@ -282,10 +282,10 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Dose Guidance Engine — Glooko — Python, gRPC, FastAPI, Pydantic, Beanie, MongoDB, Pytest, Jenkins
+          Patient Dose Week History — Glooko — Python, FastAPI, MongoDB, React
         </h1>
         <p class="subtitle is-6">
-          Built support into dose guidance gRPC engine for injection day changes, hypo inclusion, and medication switching. Developed accompanying service for business logic around engine request and response to ensure patient compliance and safety.
+          Built backend API and React components for health care provider dashboard to query historical treatment plan data including status changes, dose injection updates, dose week compliancy and corresponding weekly data in drill-down and roll-up views. Integrated support into patient adjustment and treatment plan APIs to capture changes around key attributes.
         </p>
       </div>
     </section>
@@ -293,10 +293,10 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Mobile Diagnostic Service — Glooko — Python, AWS Lambda, API Gateway, S3, DynamoDB, Pytest, React
+          Dose Recommendation Service — Glooko — Python, gRPC, FastAPI, MongoDB
         </h1>
         <p class="subtitle is-6">
-          Developed API to support upload, request, and retrieval of encrypted mobile app logs and accompanying React admin panel to enable production support and troubleshooting.
+          Built support into a stateless, rules-based dose recommendation gRPC engine for injection day changes, hypo inclusion window checks, and medication switching. Developed accompanying integration into patient-aware, stateful service for acquiring patient request data and for applying business logic around engine request and response to ensure patient compliance and safety followed.
         </p>
       </div>
     </section>
@@ -304,10 +304,10 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Search Microservice — Office Depot — Go, Docker, Bloomreach
+          Mobile Diagnostic Service — Glooko — Python, AWS Lambda, API Gateway, S3, DynamoDB, React
         </h1>
         <p class="subtitle is-6">
-          Migrated search functionality from legacy monolith system to new microservice exposing facet and search filters from Bloomreach search engine.
+          Developed serverless API to enable mobile app issue debugging for adversely affected users. Added support for upload, request, and retrieval of encrypted mobile app logs where a user could proactively submit logs or an admin could request mobile app to upload a log date range transparently. Built accompanying React admin panel to provide an interface for production support.
         </p>
       </div>
     </section>
@@ -315,7 +315,29 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Server-side Sponsored Products — Office Depot — Java, JSP, Struts
+          Planning Poker — Glooko — Python, GraphQL, Ariadne, React, MongoDB
+        </h1>
+        <p class="subtitle is-6">
+          Designed and developed a planning poker React web app game with a GraphQL backend for a hackathon. Added support for a game admin to create a game instance and share the url with participants where they could cast a hidden vote for a set topic that the admin could later reveal once all votes were in for team discussion as well as reset the state for the next topic vote.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Product Search Service — Office Depot — Go, Docker, Bloomreach, Endeca
+        </h1>
+        <p class="subtitle is-6">
+          Migrated legacy search functionality from monolithic Endeca-based system to new microservice integrating with Bloomreach search engine written in Go. Added RESTful API for search with support for exposing facet, query filters, and pagination for catalog products.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-5">
+          Server-Side Sponsored Products — Office Depot — Java, JSP, Struts
         </h1>
         <p class="subtitle is-6">
           Built and collaborated with 3rd party to offer support for sponsored products in server-side search results to fulfill contractual product restrictions and improve performance and user experience over existing client-side implementation.
@@ -326,10 +348,10 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Teachers’ List Notification Scheduler — Office Depot — Java, Spring, JUnit, JMockit, JMeter, SOAP, Couchbase, SQL Server, Jenkins
+          Back-to-School Teachers’ Lists Service — Office Depot — Java, Spring, Couchbase, SQL Server
         </h1>
         <p class="subtitle is-6">
-          Built system to check availability of educational product lists to email customers when schools release their yearly teachers’ lists with multi-system communication including API for notification request, product info population service, and SOAP email service.
+          Built system to check availability of educational product lists to email customers when schools release back-to-school teachers’ lists with multi-system communication including API for notification request, product info population service, and SOAP email service.
         </p>
       </div>
     </section>
@@ -337,10 +359,10 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Bulk Product Info Microservice — Office Depot — Java, Spring, JUnit, JMockit, JMeter, GraphQL, Ehcache, Jenkins
+          Bulk Product Info Service — Office Depot — Java, Spring, GraphQL
         </h1>
         <p class="subtitle is-6">
-          Developed API to gather data from multiple downstream services concurrently for pricing, availability, and static product information with cache design using events to provide benefits of a distributed cache with speed of local cache.
+          Developed RESTful API to gather data from multiple downstream services concurrently for pricing, availability, and static product information with cache design using events to provide benefits of a distributed cache with speed of local cache.
         </p>
       </div>
     </section>
@@ -348,7 +370,7 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Google Reviews Microservice — Office Depot — Java, Spring, Google Maps/My Business API, OAuth 2, Couchbase, Jenkins
+          Google Reviews Microservice — Office Depot — Java, Spring, Google Maps/My Business API, OAuth 2, Couchbase
         </h1>
         <p class="subtitle is-6">
           Built microservice to provide API for querying Google Reviews for retail locations to gather metrics to be used for creating dashboards to track rating and responding to recent reviews.
@@ -359,7 +381,7 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Micro App Server-Side Cache Layer — Office Depot — Java, JSP, Struts, Ehcache, JavaScript, Node, Bash, Groovy
+          Micro App Server-Side Cache Layer — Office Depot — Java, Struts, JavaScript, React, Node, Jenkins
         </h1>
         <p class="subtitle is-6">
           Developed support for caching server-side requested React apps from legacy Struts app supporting arbitrary context information passed in app request with dynamic caching to transparently support future apps, and cache-clearing endpoints for CI pipeline.
@@ -370,7 +392,7 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Cross Sells Microservice — Office Depot — Java, Spring, JUnit, JMockit, JMeter, Ehcache, SQL Server, Jenkins
+          Cross Sells Service — Office Depot — Java, Spring, SQL Server
         </h1>
         <p class="subtitle is-6">
           Developed microservice to provide cross sells of related products sourced from manually input products and AI-generated cross sells for retail chain’s store lockers to provide customers with related product offers when picking up orders.
@@ -392,10 +414,10 @@
     <section class="section">
       <div class="container">
         <h1 class="title is-5">
-          Claims Controllership Dashboard — Florida Blue — Java, Spring, SQL Server, Oracle Database, Jenkins
+          Claims Controllership Dashboard — Florida Blue — Java, Spring, SQL Server, Oracle Database
         </h1>
         <p class="subtitle is-6">
-          Developed RESTful API for claims controllership dashboard providing reporting, customizable dashboard options, report URL sharing, Excel export, and alert subscription system.
+          Designed and developed RESTful API for claims controllership dashboard providing reporting, customizable dashboard options, report URL sharing, Excel export, and alert subscription system.
         </p>
       </div>
     </section>    
